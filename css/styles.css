@@ -9,10 +9,10 @@ body {
     /*background-color: aqua;*/
     /*background-position: center;*/
     background-repeat: no-repeat;
-    background-size: 230vh;
-    /*width: 100%;
-    height: 100%;*/
-    
+    background-size: cover;
+    /*width: 100%;*/
+    height: 554px;
+   
 } 
 
 h2 {
@@ -82,9 +82,27 @@ h2 {
     }
 } 
 
+/*.footer {
+    width: 600px;
+    height: 200px;
+    border: 10px solid red;
+}*/
 
-
-
+.footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 36em;
+    margin-bottom: -36em;
+    margin-top: 360px;
+}
+.diseñado {
+    color: darkturquoise;
+}
 
 
 
